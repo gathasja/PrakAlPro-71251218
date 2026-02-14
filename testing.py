@@ -37,4 +37,5 @@
 # print(f"   Keuntungan total (Rp): Rp {keuntungan_total_rp:,}")
 # print(f"   Keuntungan total (%): {keuntungan_total_persen:.2f}%")
 
-print("Hello world")
+a = 7
+b = "halo dunia"
