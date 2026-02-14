@@ -37,5 +37,17 @@
 # print(f"   Keuntungan total (Rp): Rp {keuntungan_total_rp:,}")
 # print(f"   Keuntungan total (%): {keuntungan_total_persen:.2f}%")
 
-a = 7
-b = "halo dunia"
+
+def hitung_f(x):
+    if x == 0:
+        return "error: x tidak boleh bernilai 0"
+    else:
+        hasil = 2 * (x ** 3) + 2 * x + 15 / x
+        return hasil
+
+# Input dari pengguna
+x = int(input("Masukkan nilai x (bilangan bulat, x ≠ 0): "))
+
+# Hitung dan tampilkan hasil
+print(f"f({x}) = {hitung_f(x)}")
+
