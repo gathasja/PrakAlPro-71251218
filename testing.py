@@ -38,16 +38,22 @@
 # print(f"   Keuntungan total (%): {keuntungan_total_persen:.2f}%")
 
 
-def hitung_f(x):
-    if x == 0:
-        return "error: x tidak boleh bernilai 0"
-    else:
-        hasil = 2 * (x ** 3) + 2 * x + 15 / x
-        return hasil
+# def hitung_f(x):
+#     if x == 0:
+#         return "error: x tidak boleh bernilai 0"
+#     else:
+#         hasil = 2 * (x ** 3) + 2 * x + 15 / x
+#         return hasil
 
-# Input dari pengguna
-x = int(input("Masukkan nilai x (bilangan bulat, x ≠ 0): "))
+# # Input dari pengguna
+# x = int(input("Masukkan nilai x (bilangan bulat, x ≠ 0): "))
 
-# Hitung dan tampilkan hasil
-print(f"f({x}) = {hitung_f(x)}")
+# # Hitung dan tampilkan hasil
+# print(f"f({x}) = {hitung_f(x)}")
 
+#contoh komentar
+print("halo semua") #ini komentar untuk menjelaskan fungsi perintah
+
+#komentar 1
+#komentar 2
+#komentar 3
